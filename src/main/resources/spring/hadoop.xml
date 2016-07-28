@@ -8,7 +8,7 @@
 	<hdp:configuration>
 		fs.default.name=hdfs://192.168.23.128:9000
 		hadoop.tmp.dir=/tmp/hadoop
-		root=somePassword
+		root=hadoop
 	</hdp:configuration>
 	
 	
