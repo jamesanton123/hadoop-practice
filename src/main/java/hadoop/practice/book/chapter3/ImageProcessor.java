@@ -18,6 +18,9 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+/**
+This needs to be refactered as per michaels suggestions
+*/
 public class ImageProcessor {	
 	
 	public static class ImageRedPixelMapper extends Mapper<Text, BytesWritable, Text, IntWritable> {
